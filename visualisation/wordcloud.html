@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="lib/cloud.js"></script>
+    <script src="wordcloud.js"></script>
+    <style type="text/css">
+      svg {
+
+      }
+    </style>
+  </head>
+  <body>
+  	<div class="container" style="text-align:center;margin: 15px">
+		<div class="row">
+			<div class="col-sm-5 offset-sm-4">
+				<h4>Most used words</h4><select id="items">
+				</select>		
+			</div>
+		</div>
+	</div>
+	<div class="container" style="text-align: center;">
+    	<div id="chart"></div>
+	</div>
+  <div class="container" style="text-align: center">
+    <!-- Trigger the modal with a button -->
+    <button type="button" onclick="showremi()"  data-toggle="modal" data-target="#myModal">Rating Analysis</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body" style="text-align: center;">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    <script>
+      
+      
+    </script>
+  </body>
+</html>

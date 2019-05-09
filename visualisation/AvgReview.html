@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style type="text/css">
+
+
+body { font: 12px Arial;}
+
+path { 
+  stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+
+</style>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	 
+
+</head>
+<body>
+
+	<div class="container" style="text-align: center;margin: 15px">
+		<div class="row">
+			<div class="col-sm-5 offset-sm-4">
+				<span><h5>Monthly Average Review</h5></span><select id="items">
+				</select>		
+			</div>
+		</div>
+	</div>
+
+	<div class="container slider-container" style="text-align: center">
+		<div class="col-sm-12 " id="chart">
+			
+		</div>
+	</div>
+
+	<div class="container" style="text-align: center">
+		<!-- Trigger the modal with a button -->
+		<button type="button" onclick="showremi()"  data-toggle="modal" data-target="#myModal">Rating Analysis</button>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-body" style="text-align: center;">
+		        <p>Some text in the modal.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="AvgReview.js"></script>
+</html>
+
+<!-- Load in the d3 library -->
+

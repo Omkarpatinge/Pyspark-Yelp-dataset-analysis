@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+<style type="text/css">
+	#wchart2 text{
+		fill : rgb(255,0,0) !important;
+	}
+	#wchart1 text{
+		fill : rgb(0,0,255) !important;
+	}
+</style> 
+</head>
+<body>
+<div class="container" style="text-align: center;margin: 15px">
+	<div class="row">
+		<div class="col-sm-5 offset-sm-4">
+			<span><h5>Feature Analysis</h5></span>
+			<select id="items">
+			</select>		
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div style="text-align: center;">
+		<div id="chartContainer" style="height: 700px; width: 200%;"></div>
+	</div>	
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-10">
+			<div style="margin-bottom: 50px" id="wchart1"></div>
+		</div>
+		<div class="col-sm-10">
+			<div  id="wchart2"></div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="wordcloud/lib/cloud.js"></script>
+<script src="featureanalysis.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
