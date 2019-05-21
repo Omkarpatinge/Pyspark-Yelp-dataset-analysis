@@ -54,7 +54,3 @@ The <PLACE_INDEX> value ranges from 0 to 9 and generates wordcloud analysis and 
 ##Visualisation
 
 Check the visualisation readme in the visualisation folder for the details
-
-## Extra-Code
-
-The extra code used for developing the actual code is places in the "extra_code" directory. It may not work directly and may need some modification.
