@@ -51,6 +51,6 @@ top_bid = top_count.select("business_id").collect()[<PLACE_INDEX>].business_id
 The <PLACE_INDEX> value ranges from 0 to 9 and generates wordcloud analysis and feature analysis for that particular place. The process isn't automated as running on 5 different places can take a lot of time.
 
 
-##Visualisation
+## Visualisation
 
 Check the visualisation readme in the visualisation folder for the details
